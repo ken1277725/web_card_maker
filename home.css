@@ -9,7 +9,7 @@
 .context{
 	position: relative;
 	width:100%;
-	height:1000px;
+	height:100%;
 	background:yellow; 
 
 }
@@ -18,3 +18,5 @@
 	background:yellow;
 
 }
+
+
