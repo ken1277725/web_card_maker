@@ -1,0 +1,41 @@
+section{
+	background: rgba(0,0,0,0.5);
+
+}
+
+.navigation{
+	position: absolute;
+	background: rgba(0,0,0,0.55);
+	top:0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	display: block;
+	box-sizing: border-box;
+}
+.option{
+	font-size: 40px;
+	color:#FFF;
+	border-left:dashed white 2px;
+	border-right:dashed white 2px;
+}
+.type-option{
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	width: 100%;
+	height: 75%;
+	background:rgba(256,256,256,0.2);
+
+}
+.next{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	min-width:20%;
+}
+.next-botton{
+	height:100%;
+	width:100%;
+	background: green;
+}
