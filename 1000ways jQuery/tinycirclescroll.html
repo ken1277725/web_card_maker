@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant-TW">
+	<head>
+		<title> test</title>
+		<script src="http://baijs.com/tinycircleslider/js/jquery.tinycircleslider.min.js?utm_source=jquer.in&utm_medium=website&utm_campaign=content-curation"></script>
+		<link rel="stylesheet" href="tinycircleslider.css" type="text/css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#rotatescroll').tinycircleslider({ interval: true, dotsSnap: true, dotsHide: false });
+		});
+	</script>
+	</head>
+	<body>
+		<div id="rotatescroll">
+			<div class="viewport">
+				<ul class="overview">
+					<li><img src="images/P01.JPG"/></li>
+					<li><img src="images/P02.JPG"/></li>
+					<li><img src="images/P03.JPG"/></li>
+					<li><img src="images/P04.JPG"/></li>
+				</ul>
+			</div>
+			<div class="dot"></div>
+			<div class="overlay"></div>
+			<div class="thumb"></div>
+		</div>
+	</body>
+
+</html>
