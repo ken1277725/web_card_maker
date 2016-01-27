@@ -85,5 +85,6 @@ a:focus {
 	height: 0;
   	width: 80%;
   	padding-bottom: 60%;
+  	padding-left: 10%;
   	overflow: hidden;
 }
