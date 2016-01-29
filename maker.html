@@ -32,11 +32,11 @@
 				<div>
 					<div class="container type-option">
 						<div class="col-xs-1"></div>
-						<div class="col-xs-2">
+						<div class="col-xs-2 type-option-list">
 							<ul class="btn-group" data-toggle="buttons">
 								<li>
-									<label type="button" class="btn-lg btn btn-default">
-										<input type="radio" autocomplete="off" name="type-options" checked id="option1">
+									<label type="button" class="btn-lg btn btn-default" onclick="document.getElementById('type-1').style.display='block'">
+										<input type="radio" autocomplete="off" name="type-options" checked id="option1" >
 										可愛小書
 									</label>
 								</li>
@@ -64,10 +64,18 @@
 										E
 									</label>
 								</li>
+								<li>
+									<button > Click me</button>
+								</li>
+
 							</ul>
 						</div>
 						<div class="col-xs-8">
-							
+							<div class="type-option-display">
+								<div id="type-1"></div>
+								<div id="type-2"></div>
+								<div id="type-3"></div>
+							</div>
 						</div>
 
 					</div>
